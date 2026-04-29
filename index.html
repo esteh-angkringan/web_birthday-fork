@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Sayang</title>
+    <meta
+      name="description"
+      content="Website ulang tahun interaktif, romantis, dan lucu untuk pacar tercinta."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="balloons" aria-hidden="true">
+      <span class="balloon balloon-1"></span>
+      <span class="balloon balloon-2"></span>
+      <span class="balloon balloon-3"></span>
+      <span class="balloon balloon-4"></span>
+      <span class="balloon balloon-5"></span>
+      <span class="balloon balloon-6"></span>
+    </div>
+
+    <button
+      class="floating-music-btn"
+      id="musicToggle"
+      type="button"
+      aria-label="Putar musik ulang tahun"
+    >
+      <span class="music-icon">>></span>
+      <span class="music-label">Play Lagu</span>
+    </button>
+
+    <!-- Autoplay dihapus agar musik tidak langsung play saat di div awal -->
+    <audio id="birthdaySong" loop preload="auto">
+      <source src="assets/audio/musik.mp3" type="audio/mpeg" />
+    </audio>
+
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="brand" href="#hero">Laura Meisya Wijaya</a>
+        <div class="nav-links">
+          <a href="#gallery">Galeri</a>
+          <a href="#love-note">Pesan</a>
+          <a href="#fun-zone">Fun Zone</a>
+          <a href="#footer-love">Ending</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-content glass-card reveal">
+          <p class="eyebrow">06 Mei 2026</p>
+          <h1>Happy Birthday <br />Sayangku!</h1>
+          <p class="hero-text">
+            Hari ini dunia wajib ikut senang, karena orang paling lucu, paling
+            cantik, dan paling bikin aku kangen sedang ulang tahun.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="autoScrollBtn">
+              Mulai Auto Scroll ⬇️
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-portrait reveal">
+          <div class="portrait-ring"></div>
+          <img
+            src="assets/img/foto-berdua-hero.jpeg"
+            alt="Foto berdua yang manis"
+            class="main-couple-photo"
+          />
+          <div class="floating-sticker sticker-1">Lucuu</div>
+          <div class="floating-sticker sticker-2">Baik</div>
+        </div>
+      </section>
+
+      <section class="birthday-info section">
+        <div class="info-card reveal reveal-left">
+          <span class="info-label">Tanggal Spesial</span>
+          <h2>6 Mei 2006</h2>
+          <p>
+            Tanggal ini bukan sekadar angka. Hari ini tiba-tiba jadi lebih
+            indah, lebih cerah karena kamu lahir. Sejak itu, aku jadi lebih
+            ceria, semangat, dan kehidupan aku jadi berwarna. So, Thank You
+            Dear...
+          </p>
+        </div>
+        <div class="info-card reveal reveal-scale">
+          <span class="info-label">Mood Hari Ini</span>
+          <h2>Seru, Lucu, dan Asik</h2>
+          <p>
+            Website ini aku bikin khusus buat nemenin hari ulang tahunmu. Biar
+            tiap scroll rasanya kayak lagi jalan bareng aku. kadang ketawa
+            sampai sakit perut, kadang random ngomong hal nggak jelas, tapi
+            selalu bikin hati kangen...
+          </p>
+        </div>
+        <div class="info-card reveal reveal-right">
+          <span class="info-label">Pesan Singkat</span>
+          <h2>Haloo Ndutt...</h2>
+          <p>
+            Kalau lagi capek, kamu cerita yaa sama akuu. Jangan di pendem
+            sendiri yaa sayang... aku siap jadi pendengar cerita kamu... Kalau
+            lagi senang, aku mau jadi bagian dari senyum kamuu...
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery-section section" id="gallery">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Kumpulan Album</p>
+          <h2>Galeri Foto</h2>
+        </div>
+
+        <div class="gallery-marquee">
+          <div class="gallery-track">
+            <article class="gallery-card">
+              <img src="assets/img/wisuda.jpeg" alt="Wisuda" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura1.jpeg" alt="Cantik" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/smk.jpeg" alt="SMKN 7 Jakarta" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura2.jpeg" alt="Ndutt" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/luwes.jpeg" alt="Luwes" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura3.jpeg" alt="Masyallah" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/badminton.jpeg" alt="Badminton" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura4.jpeg" alt="Pacal aku" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/bukber.jpeg" alt="Bukber" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura5.jpeg" alt="Sayang aku" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/ultah.jpeg" alt="Ulang tahun" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura6.jpeg" alt="Love You" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/wisuda.jpeg" alt="Wisuda" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura1.jpeg" alt="Cantik" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/smk.jpeg" alt="SMKN 7 Jakarta" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura2.jpeg" alt="Ndutt" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/luwes.jpeg" alt="Luwes" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura3.jpeg" alt="Masyallah" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/badminton.jpeg" alt="Badminton" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura4.jpeg" alt="Pacal aku" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/bukber.jpeg" alt="Bukber" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura5.jpeg" alt="Sayang aku" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/ultah.jpeg" alt="Ulang tahun" />
+            </article>
+            <article class="gallery-card">
+              <img src="assets/img/laura6.jpeg" alt="Love You" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="love-note section" id="love-note">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Surat Mini</p>
+          <h2>Ucapan Buat Kamu</h2>
+        </div>
+
+        <div class="message-box glass-card reveal reveal-scale-up">
+          <h3>Selamat Ulang Tahun yaa Sayangku........</h3>
+          <p>
+            Selamat ulang tahun ya buat kamu, orang yang paling bisa bikin
+            hari-hariku jadi jauh lebih berwarna dan nggak ngebosenin. Aku masih
+            ingat banget momen lucu waktu kita ketawa sampai sakit perut cuma
+            gara-gara hal sepele yang sebenarnya nggak penting banget buat
+            dibahas. Kalau aku scroll galeri HP, isinya beneran penuh sama
+            foto-foto kita dari yang mukanya estetik sampai foto komuk yang
+            bikin kita malu sendiri kalau lihat lagi. Setiap foto itu punya
+            cerita uniknya masing-masing dan rasanya semua memori itu berharga
+            banget buat aku simpan selamanya. Kadang aku senyum-senyum sendiri
+            pas lagi sendirian cuma karena tiba-tiba kepikiran kejadian konyol
+            yang pernah kita lewati berdua di jalan. Pokoknya nggak ada hari
+            yang lewat tanpa ada kenangan baru yang kita buat, entah itu pas
+            lagi makan bareng atau sekadar jalan santai. Terima kasih ya sudah
+            mau berbagi banyak tawa dan cerita sama aku sampai detik ini juga.
+            Semoga di umur yang baru ini, koleksi foto random dan cerita lucu
+            kita makin banyak lagi buat diceritain nanti.
+          </p>
+          <p>
+            Aku berharap semua keinginan dan mimpi-mimpi kecil kamu bisa
+            pelan-pelan terwujud karena kamu beneran layak dapetin semua
+            kebahagiaan itu. Jangan pernah capek buat jadi diri sendiri yang
+            ceria dan selalu bisa bikin orang di sekitar kamu ngerasa nyaman
+            banget. Meskipun kadang kita ada aja selisih paham atau drama kecil,
+            tapi itu semua malah bikin hubungan kita makin seru dan nggak kaku.
+            Aku bakal selalu ada di sini buat nemenin kamu ngelewatin hari-hari
+            capek ataupun hari-hari yang paling bahagia dalam hidup kamu. Tetap
+            jadi teman ngobrol paling asik yang selalu punya topik seru buat
+            dibahas dari pagi sampai ketemu pagi lagi ya. Semoga kesehatan dan
+            keberuntungan selalu barengan sama langkah kaki kamu ke mana pun
+            kamu pergi buat ngejar cita-cita kamu. Aku bersyukur banget bisa
+            kenal kamu dan jadi bagian dari perjalanan hidup kamu yang luar
+            biasa keren ini sepanjang tahun kemarin. Selamat merayakan hari
+            spesialmu dengan penuh suka cita, makan makanan enak yang banyak,
+            dan jangan lupa buat selalu bahagia terus. Sekali lagi selamat ulang
+            tahun buat pacarku yang paling hebat, aku sayang banget sama kamu
+            dan selalu bangga sama kamu.
+          </p>
+        </div>
+      </section>
+
+      <section class="fun-zone section" id="fun-zone">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Mini Games</p>
+          <h2>Zona Interaktif Spesial</h2>
+        </div>
+
+        <div class="fun-grid interactive-grid">
+          <div class="fun-card reveal reveal-flip">
+            <h3>Seberapa sayang kamu?</h3>
+            <p>Ayo jawab jujur, kamu sayang nggak sama aku? 🥺</p>
+            <div class="chase-container">
+              <button class="btn btn-primary chase-btn-yes" id="btnSayang">
+                Sayang Banget! 💖
+              </button>
+              <button class="btn btn-secondary chase-btn-no" id="btnGak">
+                Biasa Aja 😒
+              </button>
+            </div>
+            <p class="fun-response" id="sayangResponse"></p>
+          </div>
+
+          <div
+            class="fun-card reveal reveal-flip"
+            style="transition-delay: 0.15s"
+          >
+            <h3>Tombol Meledak Cinta</h3>
+            <p>Klik tombol ini kalau kamu mau nyebarin banyak cinta! 🎈💕</p>
+            <button class="btn btn-primary btn-balloons" id="btnBalloons">
+              Pencet Aku! ✨
+            </button>
+          </div>
+
+          <div
+            class="fun-card reveal reveal-flip"
+            style="transition-delay: 0.3s"
+          >
+            <h3>Pesan Rahasia</h3>
+            <p>
+              Mau lihat pesan rahasia atau gombalan lucu yang cuma boleh dibaca
+              sama kamu?
+            </p>
+            <button class="btn btn-secondary" id="btnRandomMsg">
+              Buka Pesan 💌
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="custom-modal" id="customModal">
+        <div class="modal-content glass-card">
+          <h3 id="modalEmoji">🙈</h3>
+          <p id="modalText">Halo</p>
+          <button class="btn btn-primary" id="closeModal">
+            Hihihi Oke! ✨
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div id="welcomeOverlay" class="welcome-overlay">
+      <div class="welcome-content bounce">
+        <h2
+          style="
+            font-family: &quot;Pacifico&quot;, cursive;
+            color: var(--primary-dark);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+          "
+        >
+          Halo Sayangkuuu 💌
+        </h2>
+        <p
+          style="
+            font-size: 1.1rem;
+            color: var(--text-soft);
+            margin-bottom: 20px;
+          "
+        >
+          Ada Sesuatu nih buat kamu 🫣
+        </p>
+        <button class="btn btn-primary" id="openWebsiteBtn">Buka Pesan</button>
+      </div>
+    </div>
+
+    <footer class="footer-love section" id="footer-love">
+      <div class="footer-photo-wrap reveal reveal-left">
+        <img
+          src="assets/img/akhir.jpeg"
+          alt="Foto penutup manis"
+          class="footer-photo"
+        />
+      </div>
+      <div class="footer-message reveal reveal-right">
+        <p class="eyebrow">One More Time</p>
+        <h2 style="margin-bottom: 50px">Happy Birthday</h2>
+        <p>
+          Semoga hari ulang tahunmu seindah senyummu dan seseru semua momen
+          kecil yang kita simpan bareng.
+        </p>
+      </div>
+    </footer>
+
+    <!-- 
+    ===========================================================================
+    IDE FITUR MENARIK UNTUK DITAMBAHKAN KEDEPANNYA (TANPA MENGUBAH SCRIPT SAAT INI)
+    ===========================================================================
+    1. Kuis Interaktif (Trivia tentang hubungan kalian)
+       - Buat section baru yang isinya pertanyaan lucu seperti "Di mana tempat pertama kali kita jalan jalan?"
+       - Jika benar muncul animasi konfeti, jika salah tombolnya kabur (mirip tombol 'Biasa Aja').
+       
+    2. Wish Jar / Kotak Harapan Virtual
+       - Sebuah form kecil di mana ia bisa mengetik harapannya di umur yang baru.
+       - Harapan tersebut akan tersimpan atau muncul sebagai kartu yang melayang-layang di layar.
+
+    3. Timer "Waktu Pacaran" Live
+       - Menampilkan berapa hari, jam, detik kamu dan dia sudah bersama sejak hari jadian.
+       - Terus berjalan mundur atau maju secara langsung (Real-Time).
+       
+    4. Audio Player Custom
+       - Daripada hanya tombol play/pause di pojok, bisa buat tampilan alat pemutar lagu layaknya Spotify di dalam website yang otomatis memutar playlist lagu-lagu kesukaannya.
+  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
